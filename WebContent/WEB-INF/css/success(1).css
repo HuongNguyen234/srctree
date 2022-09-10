@@ -1,0 +1,59 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate; 
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form {
+	
+  background: #5b96ad9a;
+  width: 500px;
+  
+	border-radius: 10px;
+  padding: 50px ;
+  
+}
+
+
+body form > input {
+  margin: 15px 0;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body form button {
+  width: 100px;
+  padding: 10px;
+  letter-spacing: 1px;
+  background: #fff;
+  border-radius: 10px;
+}
+body form button:hover {
+	
+  color: #ad5b5b9a;
+}

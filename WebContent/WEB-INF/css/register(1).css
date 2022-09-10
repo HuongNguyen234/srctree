@@ -1,0 +1,66 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+  background-blend-mode: darken;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+body a {
+  color: blue;
+}
+
+body form {
+background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  width: 600px;
+	border-radius: 10px;
+}
+
+body form .gom {
+  margin: 50px;
+}
+
+body form .gom p {
+  margin-top: 45px;
+  text-align: center;
+  font-size: 25px;
+}
+
+body form .gom > input {
+  margin: 15px 0;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body form .gom > button {
+  width: 100px;
+  padding: 10px;
+  margin: 0 200px;
+  letter-spacing: 1px;
+  background: #fff;
+  border-radius: 10px;
+}
+body form .gom > button:hover {
+	
+  color: #ad5b5b9a;
+}
+
+body form .gom p {
+  font-size: 16px;
+}
+
+body form .gom p .dk{
+	color: blue;
+}
